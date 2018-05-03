@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+   <title>calculadora</title>
+     <link rel="stylesheet" href="estilos/formulario.css">
+   <script type="text/javascript" src= "funciones/logica.js"></script>
+   <header>
+    <center><h1><b><i>CALCULADORA</i></b></h1></center>
+     </header>
+</head>
+
+<body>
+<form>
+  <label for="t1">Ingrese su primer número: </label>
+  <br></br>
+  <input type="number" id="primernumero">
+  <br></br>
+   <label for="t1">Ingrese su segundo número: </label>
+   <br></br>
+  <input type="number" id="segundonumero">
+
+  <br></br>
+  
+  <input type="button" value="suma" onClick=" return suma()">
+   <input type="button" value="restar" onClick=" return resta()">
+    <input type="button" value="multiplicar" onClick=" return multiplicacion()">
+	 <input type="button" value="dividir" onClick=" return division()">
+
+	 <br></br>
+	 <label for="t1">El resultado es: </label>
+	<br></br>
+	<input type="number" id="resultado" disabled="false">
+
+  
+</form>
+</body>
+</html>
