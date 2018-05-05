@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+   <title>calculadora</title>
+     <link rel="stylesheet" href="estilos/formulario.css">
+   <script type="text/javascript" src= "funciones/logica_cuadratica.js"></script>
+   <header>
+    <center><h1><b><i>ECUACIÓN CUADRATICA</i></b></h1></center>
+     </header>
+</head>
+
+<body>
+<form>
+  <label for="t1">Ingrese el valor para a: </label>
+  <br></br>
+  <input type="number" id="a">
+  <br></br>
+   <label for="t1">Ingrese el valor para b: </label>
+   <br></br>
+  <input type="number" id="b">
+  <br></br>
+  <label for="t1">Ingrese el valor para c: </label>
+   <br></br>
+  <input type="number" id="c">
+  <br></br>
+  
+  <input type="button" value="ingresar" onClick=" return cuadratica()">
+
+	 <br></br>
+	 <label for="t1">El valor para X1 es: </label>
+	<input type="number" id="x1" disabled="false">
+    
+	 <label for="t1">El valor para X2 es: </label>
+	
+	<input type="number" id="x2" disabled="false">
+	<br></br>
+	
+  
+</form>
+</body>
+</html>
